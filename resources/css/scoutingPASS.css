@@ -88,6 +88,7 @@ html, body{
 
 #prematch{
     display: table;
+    color: blue;
 }
 
 #auton{
