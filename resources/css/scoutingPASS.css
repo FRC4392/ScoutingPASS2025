@@ -158,23 +158,24 @@ h2{
 #nextButton1, #nextButton2, #nextButton9, #nextButton10, .clearForm, .submitForm, #displayButton, #copyButton {
     font-family: Alexis;
     padding: 10px;
-    background-color: black;
+    background-color: white;
     text-decoration: none;
     display: inline-block;
+    color: black;
 }
 
 #nextButton3, #nextButton4, #nextButton5, #nextButton6, #nextButton7, #nextButton8 {
     font-family: Alexis;
     background-color: white;
     padding: 10px;
-    color: white;
+    color: black;
 }
 
 .undoButton, .flipButton {
     font-family: Alexis;
     background-color: white;
     padding: 10px;
-    color: white;
+    color: black;
     margin-left: 20px;
 }
 
@@ -188,7 +189,7 @@ h2{
     font-family: Alexis;
     background-color: white;
     padding: 10px;
-    color: white;
+    color: black;
 
 }
 
