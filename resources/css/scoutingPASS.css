@@ -156,7 +156,7 @@ h2{
 #nextButton1, #nextButton2, #nextButton9, #nextButton10, .clearForm, .submitForm, #displayButton, #copyButton {
     font-family: Alexis;
     padding: 10px;
-    background-color: "70D1A0";
+    background-color: "Cyrus's color";
     text-decoration: none;
     display: inline-block;
 }
@@ -245,4 +245,4 @@ input {
     text-align: justify;
 }
     
-"Cyrus's color": "70D1A0",
+"Cyrus's color": "#70D1A0",
