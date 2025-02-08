@@ -1,4 +1,17 @@
 @font-face {
+    font-family: 'Haettenschweiler';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/Haettenschweiler-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'PlaybillD';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/Playbill.ttf") format('truetype');
+}
+@font-face {
     font-family: 'Alexis';
     font-style: normal;
     font-weight: normal;
@@ -12,35 +25,35 @@ html, body{
     margin: 0;
     padding: 0;
     color: white;
-    background-color: blue;
+    background-color: rgb(0, 0, 0);
 }
 
 #prematch_table, #postmatch_table {
 
     font-family : -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
     text-align: center;
-    color: black;
-    font-size: 13px;
+    color: white;
+    font-size: 25px;
     font-style: bold;
     letter-spacing: 1px;
     border-width: 4px;
-    border-color: rgb(0,42,74);
+    border-color: white;
 }
 
 #auton_table, #endgame_table, #teleop_table {
     font-family : -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
     color: white;
-    font-size: 13px;
+    font-size: 25px;
     font-style: bold;
     letter-spacing: 1px;
     border-width: 4px;
-    border-color: black;
+    border-color:  rgb(255, 255, 255);
 }
 
 .button {
-    font-family: Alexis;
-    font-size: 16px;
-    color:black;
+    font-family: Haettenschweiler;
+    font-size: 50px;
+    color:white;
 }
 
 #autonHeader, #endgameHeader, #teleopHeader1, #teleopHeader2{
@@ -56,13 +69,13 @@ html, body{
 }
 
 #prematchHeader1, #prematchHeader2{
-    color: black;
+    color: white;
     border-color: white;
     border-width: 4px;
 }
 
 #qrHeader1, #qrHeader2 {
-    color: black;
+    color: white;
 }
 
 .field-image {
@@ -111,7 +124,7 @@ html, body{
 }
 
 h1{
-    font-family: Alexis;
+    font-family: PlaybillD;
     text-align: center;
     border-style: groove;
     border-color: white;
@@ -126,7 +139,7 @@ h1{
 }
 
 h2{
-    font-family: Alexis;
+    font-family: Haettenschweiler;
     text-align: center;
     font-size: 30px;
     font-weight: 300;
@@ -156,57 +169,67 @@ h2{
     display: flex;
 }
 #nextButton1, #nextButton2, #nextButton9, #nextButton10, .clearForm, .submitForm, #displayButton, #copyButton {
-    font-family: Alexis;
-    padding: 10px;
-    background-color: white;
+    font-family: roboto;
+    padding: 20px;
+    background-color: rgb(151, 199, 240);
     text-decoration: none;
     display: inline-block;
-    color: black;
+    color: white;
+    font-weight: bold; 
+    font-size: 18px;
 }
 
 #nextButton3, #nextButton4, #nextButton5, #nextButton6, #nextButton7, #nextButton8 {
-    font-family: Alexis;
-    background-color: white;
-    padding: 10px;
-    color: black;
+     font-family: roboto;
+    font-weight: bold;
+    background-color: rgb(151, 199, 240);
+    padding: 20px;
+    color: white;
+    font-size: 18px;
 }
 
 .undoButton, .flipButton {
-    font-family: Alexis;
-    background-color: white;
-    padding: 10px;
-    color: black;
+    font-family: roboto;
+    font-weight: bold;
+    background-color: rgb(151, 199, 240);
+    padding: 15px;
+    color: white;
     margin-left: 20px;
 }
 
 #prevButton7, #prevButton8, #prevButton9{
-    font-family: Alexis;
-    background-color: white;
-    padding: 10px;
+    font-family: roboto;
+    background-color: rgb(151, 199, 240);
+    padding: 20px;
+    color: white; 
+    font-weight: bold;
+    font-size: 18px;
 }
 
 #prevButton1, #prevButton2, #prevButton3, #prevButton4, #prevButton5, #prevButton6{
-    font-family: Alexis;
-    background-color: white;
-    padding: 10px;
-    color: black;
+    font-family: roboto;
+    font-weight: bold;
+    background-color: rgb(151, 199, 240);
+    padding: 20px;
+    color: white;
+    font-size: 18px;
 
 }
 
 #prematch_table{
-    font: Alexis;
+    font: Haettenschweiler;
     text-align: center;
 }
 
 
 h1 .odd {
-    font-family: Alexis;
+    font-family: Haettenschweiler;
     text-align: center;
     color: #0AB4EC;
 }
 
 h1 .even {
-    font-family: Alexis;
+    font-family: Haettenschweiler;
     text-align: center;
     color: #42B333;
 }
@@ -248,4 +271,3 @@ input {
     text-align: justify;
 }
     
-"Cyrus's color": "#70D1A0",
