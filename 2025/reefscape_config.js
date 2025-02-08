@@ -71,7 +71,7 @@ var config_data = `
       "code": "al",
       "type": "bool"
     },
-    { "name": "Coral L1",
+    { "name": "Coral L1 (trough)",
       "code": "ac1",
       "type": "counter"
     },
@@ -97,7 +97,7 @@ var config_data = `
     }
   ],
   "teleop": [
-    { "name": "Coral L1",
+    { "name": "Coral L1(trough)",
       "code": "tc1",
       "type": "counter"
     },
