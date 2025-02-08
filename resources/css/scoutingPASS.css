@@ -53,12 +53,12 @@ html, body{
 .button {
     font-family: Haettenschweiler;
     font-size: 50px;
-    color:white;
+    color: white;
 }
 
 #autonHeader, #endgameHeader, #teleopHeader1, #teleopHeader2{
-    color: black;
-    border-color: black;
+    color: white;
+    border-color: white;
     border-width: 4px;
 }
 
@@ -171,20 +171,20 @@ h2{
 #nextButton1, #nextButton2, #nextButton9, #nextButton10, .clearForm, .submitForm, #displayButton, #copyButton {
     font-family: roboto;
     padding: 20px;
-    background-color: white;
+    background-color: rgb(151, 199, 240);
     text-decoration: none;
     display: inline-block;
-    color: black;
+    color: white;
     font-weight: bold; 
     font-size: 18px;
 }
 
 #nextButton3, #nextButton4, #nextButton5, #nextButton6, #nextButton7, #nextButton8 {
-     font-family: roboto;
+    font-family: roboto;
     font-weight: bold;
-    background-color: white;
+    background-color: rgb(151, 199, 240);
     padding: 20px;
-    color: black;
+    color: white;
     font-size: 18px;
 }
 
