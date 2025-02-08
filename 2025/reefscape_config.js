@@ -32,6 +32,7 @@ var config_data = `
     { "name": "Match #",
       "code": "m",
       "type": "match",
+      "color": "black",
       "min": 1,
       "max": 150,
       "required": "true"
