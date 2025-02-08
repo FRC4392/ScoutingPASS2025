@@ -1,8 +1,8 @@
 var config_data = `
 {
   "dataFormat": "tsv",
-  "title": "Scouting PASS 2025",
-  "page_title": "REEFSCAPE",
+  "title": "Scouting PASS 2025|Deceivers Robotics",
+  "page_title": "REEFSCAPE|Deceivers Robotics",
   "checkboxAs": "10",
   "prematch": [
     { "name": "Scouter Initials",
