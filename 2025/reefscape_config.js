@@ -156,13 +156,7 @@ var config_data = `
       "code": "cop",
       "type": "bool"
     },
-    { "name": "Algae Left in Reef",
-      "code": "alr",
-      "type": "number",
-      "min": 0,
-      "max": 9,
-      "defaultValue": 0
-    },
+
     { "name": "Defense Rating",
       "code": "dr",
       "type": "radio",
