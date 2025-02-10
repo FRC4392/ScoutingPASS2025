@@ -115,6 +115,10 @@ html, body{
 #endgame{
 }
 
+/*this will break it -jacob*/
+#qr-table{
+  color:blue;
+}
 #postmatch{
 }
 
