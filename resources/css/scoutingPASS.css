@@ -120,7 +120,8 @@ html, body{
 
 #qr-code{
   text-align: center;
-  color: rgb(0,43,92);
+  color: blue;
+  boarder_color:blue;
 }
 
 h1{
