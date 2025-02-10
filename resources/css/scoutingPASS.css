@@ -63,7 +63,7 @@ html, body{
 }
 
 #postmatchHeader{
-    color: black;
+    color: white;
     border-width: 4px;
     border-color: white;
 }
@@ -75,7 +75,7 @@ html, body{
 }
 
 #qrHeader1, #qrHeader2 {
-    color: white;
+    color: black;
 }
 
 .field-image {
@@ -262,7 +262,7 @@ input {
 
 #qr-table {
     text-align: center;
-    color: black;
+    color: rgb(0,43,92);
     background-color: white;
 }
 
