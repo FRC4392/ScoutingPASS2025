@@ -85,7 +85,11 @@ var config_data = `
     { "name": "Net Score",
       "code": "ans",
       "type": "counter"
-    }
+    },
+    { "name": "Floor Pickup",
+      "code": "fp",
+      "type": "bool",
+      }
   ],
   "teleop": [
     { "name": "Coral L1(trough)",
