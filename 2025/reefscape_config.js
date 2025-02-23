@@ -89,7 +89,7 @@ var config_data = `
     { "name": "Floor Pickup",
       "code": "fp",
       "type": "bool"
-      }
+    }
   ],
   "teleop": [
     { "name": "Coral L1(trough)",
