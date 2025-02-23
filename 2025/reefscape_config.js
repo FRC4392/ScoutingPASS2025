@@ -88,7 +88,7 @@ var config_data = `
     },
     { "name": "Floor Pickup",
       "code": "fp",
-      "type": "bool",
+      "type": "bool"
       }
   ],
   "teleop": [
