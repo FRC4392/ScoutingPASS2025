@@ -62,6 +62,10 @@ var config_data = `
       "code": "al",
       "type": "bool"
     },
+     { "name": "Floor Pickup",
+      "code": "fp",
+      "type": "bool"
+    }
     { "name": "Coral L1 (trough)",
       "code": "ac1",
       "type": "counter"
@@ -86,10 +90,6 @@ var config_data = `
       "code": "ans",
       "type": "counter"
     },
-    { "name": "Floor Pickup",
-      "code": "fp",
-      "type": "bool"
-    }
   ],
   "teleop": [
     { "name": "Coral L1(trough)",
