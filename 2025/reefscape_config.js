@@ -163,7 +163,7 @@ var config_data = `
         "x": "Did not play defense"
       },
       "defaultValue": "x"
-},
+    },
     { "name": "Died/Immobilized",
       "code": "die",
       "type": "bool"
