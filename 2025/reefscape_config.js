@@ -62,10 +62,14 @@ var config_data = `
       "code": "al",
       "type": "bool"
     },
-     { "name": "Floor Pickup",
+    { "name": "Floor Pickup",
       "code": "fp",
       "type": "bool"
-    }
+    },
+    { "name": "Knocked Algae Off Reef",
+      "code": "kaof",
+      "type": "bool"
+    },
     { "name": "Coral L1 (trough)",
       "code": "ac1",
       "type": "counter"
@@ -89,7 +93,7 @@ var config_data = `
     { "name": "Net Score",
       "code": "ans",
       "type": "counter"
-    },
+    }
   ],
   "teleop": [
     { "name": "Coral L1(trough)",
