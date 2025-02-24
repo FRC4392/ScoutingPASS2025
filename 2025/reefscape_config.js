@@ -62,10 +62,15 @@ var config_data = `
       "code": "al",
       "type": "bool"
     },
-    { "name": "Floor Pickup",
-      "code": "fp",
-      "type": "bool"
-    },
+    { "name": "Pickup From",
+      "code": "puf",
+      "type": "radio",
+      "choices": {
+        "s": "Coral Station<br>",
+        "f": "Floor<br>",
+        "b": "Both<br>",
+        "x": "Not Attempted"
+      },
     { "name": "Knocked Algae Off Reef",
       "code": "kaof",
       "type": "bool"
