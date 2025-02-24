@@ -63,7 +63,7 @@ var config_data = `
       "type": "bool"
     },
     { "name": "Pickup From",
-      "code": "puf",
+      "code": "tpu",
       "type": "radio",
       "choices": {
         "s": "Coral Station<br>",
@@ -71,6 +71,8 @@ var config_data = `
         "b": "Both<br>",
         "x": "Not Attempted"
       },
+      "defaultValue": "x"
+    },
     { "name": "Knocked Algae Off Reef",
       "code": "kaof",
       "type": "bool"
