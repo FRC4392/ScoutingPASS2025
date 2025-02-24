@@ -138,6 +138,10 @@ var config_data = `
       },
       "defaultValue": "x"
     },
+    { "name": "Knocked Algae Off Reef",
+      "code": "kaof",
+      "type": "bool"
+    },
     { "name": "Scored in<br>Opponent<br>Processor",
       "code": "opp",
       "type": "bool"
