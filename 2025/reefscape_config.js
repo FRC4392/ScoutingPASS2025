@@ -62,21 +62,6 @@ var config_data = `
       "code": "al",
       "type": "bool"
     },
-    { "name": "Pickup From",
-      "code": "tpu",
-      "type": "radio",
-      "choices": {
-        "s": "Coral Station<br>",
-        "f": "Floor<br>",
-        "b": "Both<br>",
-        "x": "Not Attempted"
-      },
-      "defaultValue": "x"
-    },
-    { "name": "Knocked Algae Off Reef",
-      "code": "kaof",
-      "type": "bool"
-    },
     { "name": "Coral L1 (trough)",
       "code": "ac1",
       "type": "counter"
@@ -126,21 +111,6 @@ var config_data = `
     { "name": "Net Score",
       "code": "tns",
       "type": "counter"
-    },
-    { "name": "Pickup From Tele",
-      "code": "tpu",
-      "type": "radio",
-      "choices": {
-        "s": "Coral Station<br>",
-        "f": "Floor<br>",
-        "b": "Both<br>",
-        "x": "Not Attempted"
-      },
-      "defaultValue": "x"
-    },
-    { "name": "Knocked Algae Off Reef Tele",
-      "code": "kaof",
-      "type": "bool"
     },
     { "name": "Scored in<br>Opponent<br>Processor",
       "code": "opp",
