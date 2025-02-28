@@ -1,7 +1,7 @@
 // TBAInterface funcitons to pull data from TheBlueAlliance.com
 var teams = null;
 var schedule = null;
-var authKey = "JWZ3k8XcJZgctIudpmW4FPD3CRNaNZ4YeZItV5t6ENaY9UKCXgU2tamKCr0X4gQ8";
+var authKey = "OusxflSTVA2Rn8mBZK6crxHGYBQLh1WDZeInSy8F8vE4CuQJsf79z6jF5HF3cABD";
 /**
  * Get list of teams in event
  *
