@@ -132,11 +132,6 @@ var config_data = `
     }
   ],
   "postmatch": [
-    { "name": "Attained Coopertition Pt",
-      "code": "cop",
-      "type": "bool"
-    },
-
     { "name": "Defense Rating",
       "code": "dr",
       "type": "radio",
