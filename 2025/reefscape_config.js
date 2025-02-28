@@ -15,7 +15,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2025mimil",
+      "defaultValue": "2025MIMIL",
       "required": "true"
     },
     { "name": "Match Level",
