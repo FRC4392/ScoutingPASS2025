@@ -10,7 +10,7 @@ var authKey = "OusxflSTVA2Rn8mBZK6crxHGYBQLh1WDZeInSy8F8vE4CuQJsf79z6jF5HF3cABD"
 function getTeams(eventCode) {
 	if (authKey) {
 		var xmlhttp = new XMLHttpRequest();
-		var url = "https://www.thebluealliance.com/api/v3/event/" + MIMIL + "/teams/simple";
+		var url = "https://www.thebluealliance.com/api/v3/event/" + MILSU + "/teams/simple";
 		xmlhttp.open("GET", url, true);
 		xmlhttp.setRequestHeader("X-TBA-Auth-Key", authKey);
 		xmlhttp.onreadystatechange = function() {
@@ -32,7 +32,7 @@ function getTeams(eventCode) {
 function getSchedule(eventCode) {
 	if (authKey) {
 		var xmlhttp = new XMLHttpRequest();
-		var url = "https://www.thebluealliance.com/api/v3/event/" + MIMIL + "/matches/simple";
+		var url = "https://www.thebluealliance.com/api/v3/event/" + MILSU + "/matches/simple";
 		xmlhttp.open("GET", url, true);
 		xmlhttp.setRequestHeader("X-TBA-Auth-Key", authKey);
 		xmlhttp.onreadystatechange = function() {
