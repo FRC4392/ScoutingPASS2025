@@ -127,7 +127,7 @@ var config_data = `
       "code": "tns",
       "type": "counter"
     },
-    { "name": "Pickup From",
+    { "name": "Pickup From Tele",
       "code": "tpu",
       "type": "radio",
       "choices": {
@@ -138,7 +138,7 @@ var config_data = `
       },
       "defaultValue": "x"
     },
-    { "name": "Knocked Algae Off Reef",
+    { "name": "Knocked Algae Off Reef Tele",
       "code": "kaof",
       "type": "bool"
     },
