@@ -11,7 +11,7 @@ var config_data = `
     },
     { "name": "Dimensions",
       "code": "wid",
-      "type": "number",
+      "type": "text",
       "defaultValue": "0"
     },
     { "name": "Weight",
