@@ -9,7 +9,7 @@ var config_data = `
       "code": "t",
       "type": "number"
     },
-    { "name": "Width",
+    { "name": "Dimensions",
       "code": "wid",
       "type": "number",
       "defaultValue": "0"
@@ -71,6 +71,10 @@ var config_data = `
     },
     { "name": "Floor pickup Algae",
       "code": "fpa",
+      "type": "bool"
+    },
+     { "name": "Picture taken",
+      "code": "pt",
       "type": "bool"
     },
     { "name": "Autos",
