@@ -15,7 +15,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2025MIESC",
+      "defaultValue": "2025MILSU",
       "required": "true"
     },
     { "name": "Match Level",
